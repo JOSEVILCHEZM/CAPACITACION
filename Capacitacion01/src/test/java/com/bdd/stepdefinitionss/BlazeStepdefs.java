@@ -21,7 +21,7 @@ public class BlazeStepdefs {
 
     @Cuando("agrego un celular al carrito")
     public void agregouncelularalcarrito() {
-        blazeSteps.seleccionaCelularSamsungGalaxy();
+        blazeSteps.seleccionaCelularIphone632gb();
         blazeSteps.agregoalCarrito();
     }
 

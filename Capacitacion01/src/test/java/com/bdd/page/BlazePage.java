@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 public class BlazePage {
 
     WebDriver driver;
-    By itemSamsungGalaxyS6 = By.xpath("//a[text()='Samsung galaxy s6']");
+    By itemIphone632gb = By.xpath("//a[text()='Iphone 6 32gb']");
     By botonAgregarAlCarrito = By.xpath("//a[text()='Add to cart']");
     By tabCarrito = By.xpath("//a[text()='Cart']");
     By botonRealizarCompra = By.xpath("//button[text()='Place Order']");
@@ -24,8 +24,8 @@ public class BlazePage {
     public BlazePage(WebDriver driver){this.driver = driver;}
 
 
-    public WebElement getItemSamsungGalaxyS6(){
-        return driver.findElement(itemSamsungGalaxyS6);
+    public WebElement getItemIphone632gb(){
+        return driver.findElement(itemIphone632gb);
     }
     public WebElement getBotonAgregarAlCarrito(){
         return driver.findElement(botonAgregarAlCarrito);

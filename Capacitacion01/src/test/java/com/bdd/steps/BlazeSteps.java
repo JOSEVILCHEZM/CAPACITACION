@@ -19,8 +19,8 @@ public class BlazeSteps {
         driver.get(url);
 
     }
-    public void seleccionaCelularSamsungGalaxy() {
-        BlazePage().getItemSamsungGalaxyS6().click();
+    public void seleccionaCelularIphone632gb() {
+        BlazePage().getItemIphone632gb().click();
         try {
             TimeUnit.SECONDS.sleep(2);
         }
@@ -62,7 +62,7 @@ public class BlazeSteps {
             System.out.println(e.getMessage());
         }
         //Llenado del formulario
-        BlazePage().getInputName().sendKeys("Pepe");
+        BlazePage().getInputName().sendKeys("Vilchez");
         BlazePage().getInputCity().sendKeys("Trujillo");
         BlazePage().getInputCountry().sendKeys("Peru");
         BlazePage().getInputCard().sendKeys("1024 728 526 124");
