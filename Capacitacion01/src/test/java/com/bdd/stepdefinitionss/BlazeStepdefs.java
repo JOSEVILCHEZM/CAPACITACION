@@ -25,6 +25,7 @@ public class BlazeStepdefs {
         blazeSteps.agregoalCarrito();
     }
 
+
     @Y("realizo una compra")
     public void realizounacompra() {
         blazeSteps.ingresoACart();

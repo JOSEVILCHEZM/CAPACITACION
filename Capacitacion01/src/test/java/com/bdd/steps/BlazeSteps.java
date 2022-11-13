@@ -63,7 +63,7 @@ public class BlazeSteps {
         }
         //Llenado del formulario
         BlazePage().getInputName().sendKeys("Vilchez");
-        BlazePage().getInputCity().sendKeys("Trujillo");
+        BlazePage().getInputCity().sendKeys("Chiclayo");
         BlazePage().getInputCountry().sendKeys("Peru");
         BlazePage().getInputCard().sendKeys("1024 728 526 124");
         BlazePage().getInputMonth().sendKeys("03");
